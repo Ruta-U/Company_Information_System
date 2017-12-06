@@ -1,0 +1,29 @@
+
+#frm
+{
+	border: solid yellowgreen 1px;
+	width: 29%;
+	border-radius: 5px;
+	margin: 100px auto;
+	background: white;
+	padding: 20px;
+}
+
+#bttn{
+	background-color: yellowgreen; /* Green */
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+/*margin-left: 100px;*/
+}
+body{
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	background: #F8F8FF;
+}
+

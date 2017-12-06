@@ -1,0 +1,133 @@
+.log{
+    font-size: 10px;
+    text-align: right;
+    color: yellowgreen;
+}
+
+.art{
+    text-align: left;
+    margin-left: 23%;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 15px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+div.tab {
+    margin-left: 23%;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 25px;
+    border-top: none;
+}
+
+#bttn{
+	background-color: yellowgreen; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    /*margin-left: 100px;*/
+}
+
+body{
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	background: #F8F8FF;
+}
+#frm{
+    border: solid yellowgreen 1px;
+    border-radius: 5px;
+    margin-left: 23%;
+    padding-right: 20%;
+    background: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.nav {
+    background:white;
+    background-image: ;
+    position: absolute;
+    height: 100%;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0%;
+    margin: 1em 0;
+}
+a {
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+.titl{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+}
