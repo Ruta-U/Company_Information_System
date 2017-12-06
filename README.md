@@ -2,12 +2,12 @@
 
 Project Was Made Using HTML, CSS, Javascript, PHP.
 
-##Requirements-
+#Requirements-
 
 Install the LAMPP
 Copy the files into a folder in the /opt/lampp/htdocs
 
-##Installing the DB:-
+#Installing the DB:-
 
 1.Run the LAMPP application (make sure that the apache and mysql are running).
 
@@ -19,7 +19,7 @@ Copy the files into a folder in the /opt/lampp/htdocs
 
 5.Click the created DB and import the sql (company_information_system.sql)
 
-##Accessing the system
+#Accessing the system
 
 1.Run the LAMPP application (make sure that the apache and mysql are running)
   Terminal command: sudo /opt/lampp/lampp start
