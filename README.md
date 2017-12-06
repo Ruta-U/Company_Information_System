@@ -16,7 +16,7 @@ Copy the files into a folder in the /opt/lampp/htdocs
 
 4.Create DB with the name Company_Information_System
 
-5.Click the created DB and import the sql (Company_Information_System.sql)
+5.Click the created DB and import the sql (company_information_system.sql)
 
 ##Accessing the system
 
