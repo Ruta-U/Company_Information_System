@@ -6,6 +6,7 @@ Project Was Made Using HTML, CSS, Javascript, PHP.
 
 Install the LAMPP
 Copy the files into a folder in the /opt/lampp/htdocs
+
 ##Installing the DB:-
 
 1.Run the LAMPP application (make sure that the apache and mysql are running).
